@@ -1,0 +1,20 @@
+{
+  "firebaseIssueTest": {
+    "folderA" : {
+      "itemA" : {
+        "color" : "blue",
+        "name" : "sky"
+      },
+      "itemB" : {
+        "color" : "green",
+        "name" : "grass"
+      }
+    },
+    "folderB" : {
+      "itemC" : {
+        "color" : "yellow",
+        "name" : "sun"
+      }
+    }
+  }
+}

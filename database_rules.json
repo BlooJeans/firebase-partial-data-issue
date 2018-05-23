@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "firebaseIssueTest": {
+      ".indexOn": ["isPinned"],
+      ".read": true,
+
+      "$folderId": {
+
+        "$itemId": {
+
+          "color": {
+            ".write": "true"
+          },
+          "name": {
+            ".write": "true"
+          }
+        }
+      }
+    }
+  }
+}
