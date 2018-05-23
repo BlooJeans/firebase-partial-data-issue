@@ -121,6 +121,12 @@ export default class MainView extends React.Component<MainViewProps, MainViewSta
           />
         ) : null}
 
+        <h4>View the console to see the events</h4>
+        <div>
+          <a href="?log=true">Enable Firebase Logging</a><br />
+          <a href="?log=false">Disable Firebase Logging</a>
+        </div>
+
         {this.state.loadedItems.map((item, index) => {
           return (
             <React.Fragment key={'item'+index}>
